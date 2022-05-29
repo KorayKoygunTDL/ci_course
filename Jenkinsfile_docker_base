@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                sh "docker build -t api_test_base . -f Dockerfile_base"
+                sh "docker build -t api_test_base /Users/koraykoygun/Documents/CICDcourse/ci_course -f Dockerfile_base"
             }
         }
     }
